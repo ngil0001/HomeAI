@@ -28,4 +28,6 @@ with wave.open('voice/output.wav', 'wb') as wf:
 
 transcribed_text = transcribe_audio('voice/output.wav')
 
-process_text(transcribed_text)
+entities = process_text(transcribed_text)
+
+print(entities)
