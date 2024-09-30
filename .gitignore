@@ -1,2 +1,4 @@
 .wav
 venv
+voice/output.wav
+.env
